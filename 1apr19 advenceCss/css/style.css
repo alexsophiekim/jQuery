@@ -1,0 +1,77 @@
+/* line 1, ../scss/style.scss */
+.red {
+  background-color: red; }
+
+/* line 4, ../scss/style.scss */
+.grey {
+  background-color: grey; }
+
+/* line 7, ../scss/style.scss */
+.blue {
+  background-color: blue; }
+
+/* line 10, ../scss/style.scss */
+.yellow {
+  background-color: yellow; }
+
+/* line 13, ../scss/style.scss */
+.green {
+  background-color: green; }
+
+/* line 17, ../scss/style.scss */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+/* line 22, ../scss/style.scss */
+body {
+  background-color: #34495e; }
+
+/* line 25, ../scss/style.scss */
+.box {
+  width: 200px;
+  height: 200px; }
+
+/* line 29, ../scss/style.scss */
+.container {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 200px; }
+
+/* line 35, ../scss/style.scss */
+.rotate {
+  -ms-transform: rotate(45deg);
+  -moz-transform: roatate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+/* line 45, ../scss/style.scss */
+.translate {
+  transform: translate(100px, 150px); }
+
+/* line 51, ../scss/style.scss */
+.scale {
+  transform: scale(0.5, 2); }
+
+/* line 55, ../scss/style.scss */
+.skew {
+  transform: skew(20deg, 30deg); }
+
+/* line 58, ../scss/style.scss */
+.matrix {
+  transform: matrix(0.2, 20, 30, 0.5, 100, 200); }
+
+/* line 62, ../scss/style.scss */
+#spinDiv {
+  transition: transform 2s, width 2s background-color 2s;
+  transition-timing-function: ease-in-out; }
+
+/* line 67, ../scss/style.scss */
+.rotateSpin {
+  width: 600px;
+  transform: rotate(360deg);
+  height: 300px; }
+
+/*# sourceMappingURL=style.css.map */

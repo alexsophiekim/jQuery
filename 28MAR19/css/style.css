@@ -1,0 +1,106 @@
+/* line 4, ../scss/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 9, ../scss/style.scss */
+body {
+  font-size: 18px;
+  font-family: Lucida console; }
+
+/* line 15, ../scss/style.scss */
+.container {
+  width: 80%;
+  margin: auto;
+  background: gray;
+  height: 1200px; }
+
+/* line 21, ../scss/style.scss */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  height: 50px;
+  line-height: 40px; }
+
+/* line 28, ../scss/style.scss */
+#nav {
+  width: 80px;
+  height: 80px;
+  text-align: right;
+  padding: 10px; }
+
+/* line 34, ../scss/style.scss */
+.button {
+  width: 90%;
+  margin: 10px auto; }
+
+/* line 38, ../scss/style.scss */
+.btn {
+  width: 100px;
+  height: 50px;
+  padding: 5px;
+  background-color: #b34d4d; }
+
+/* line 45, ../scss/style.scss */
+.btn-show {
+  width: 100;
+  height: 50px;
+  padding: 5px;
+  background-color: gray;
+  border: none;
+  display: block;
+  margin: auto; }
+
+/* line 55, ../scss/style.scss */
+.btn-hide {
+  width: 100;
+  height: 50px;
+  padding: 5px;
+  background-color: gray;
+  margin: auto;
+  border: none;
+  display: block;
+  margin: auto; }
+
+/* line 65, ../scss/style.scss */
+#para1, #para2 {
+  margin: 30px auto;
+  width: 90%; }
+
+/* line 69, ../scss/style.scss */
+.menu {
+  width: 90%;
+  height: 300px;
+  margin: 50px auto;
+  background-color: #b34d4d;
+  padding-bottom: 50px; }
+
+/* line 77, ../scss/style.scss */
+.list {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px; }
+
+/* line 82, ../scss/style.scss */
+li {
+  font-size: 20px;
+  list-style: none;
+  display: block; }
+
+/* line 88, ../scss/style.scss */
+.input {
+  width: 70%;
+  height: 100px;
+  margin: auto;
+  background-color: gray; }
+
+/* line 95, ../scss/style.scss */
+.uname {
+  font-size: 15px;
+  margin: auto;
+  width: 50%;
+  padding-top: 30px; }
+
+/*# sourceMappingURL=style.css.map */

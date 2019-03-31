@@ -1,0 +1,100 @@
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+
+    font-size: 18px;
+    font-family: Lucida console;
+
+}
+.container{
+    width:80%;
+    margin:auto;
+    background:hsl(0, 0%, 50%);
+    height:1200px;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    height:50px;
+    line-height: 40px;
+}
+#nav{
+  width: 80px;
+  height: 80px;
+  text-align: right;
+  padding:10px;
+}
+.button{
+    width:90%;
+    margin:10px auto;
+}
+.btn{
+
+    width:100px;
+    height:50px;
+    padding:5px;
+    background-color: hsl(0, 40%, 50%);
+}
+.btn-show {
+    width:100;
+    height:50px;
+    padding:5px;
+    background-color: gray;
+    border:none;
+    display:block;
+    margin:auto;
+
+}
+.btn-hide{
+    width:100;
+    height:50px;
+    padding:5px;
+    background-color: gray;
+    margin:auto;
+    border:none;
+    display:block;
+    margin:auto;
+}
+#para1, #para2{
+    margin: 30px auto;
+    width:90%;
+}
+.menu{
+  width: 90%;
+  height: 300px;
+  margin: 50px auto;
+  background-color: hsl(0, 40%, 50%);
+  padding-bottom: 50px;
+}
+
+.list{
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+li{
+  font-size: 20px;
+  list-style: none;
+  display: block;
+}
+
+.input{
+    width: 70%;
+    height:100px;
+    margin:auto;
+    background-color: gray;
+
+}
+.uname{
+    font-size: 15px;
+    margin:auto;
+    width:50%;
+    padding-top: 30px;
+}

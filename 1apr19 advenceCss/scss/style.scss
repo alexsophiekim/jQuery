@@ -1,0 +1,71 @@
+.red{
+  background-color: red;
+}
+.grey{
+  background-color: grey;
+}
+.blue{
+  background-color: blue;
+}
+.yellow{
+  background-color: yellow;
+}
+.green{
+  background-color: green;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #34495e;
+}
+.box{
+  width: 200px;
+  height:  200px;
+}
+.container{
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.rotate{
+  -ms-transform: rotate(45deg);
+  -moz-transform: roatate(45deg);
+  -webkit-transform:rotate(45deg);
+  transform: rotate(45deg);
+
+  // transform: rotateY(45deg);
+
+
+}
+.translate{
+  transform: translate(100px, 150px);
+  // transform: translateX(100px);
+  // transform: translateY(150px);
+
+}
+.scale{
+  transform: scale(0.5, 2);
+}
+
+.skew{
+  transform: skew(20deg, 30deg);
+}
+.matrix{
+  // transform: matrix(scaleX(), skewY(),skewX(), scaleY(), translateX(), translateY())
+  transform: matrix(0.2, 20, 30, 0.5, 100, 200);
+}
+#spinDiv{
+  transition: transform 2s, width 2s background-color 2s;
+  // transition-delay: 2s;
+  transition-timing-function:ease-in-out;
+}
+.rotateSpin{
+  width: 600px;
+  transform: rotate(360deg);
+  height: 300px
+}
